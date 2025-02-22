@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+.form-group.required .form-label:after,
+.form-group.required .form-check-label:after {
+  color: #d00;
+  content: '*';
+  position: relative;
+}
+
+.user-name {
+  display: inline-block;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 768px) {
+  .element-details-table {
+    font-size: 0.9rem;
+  }
+}
